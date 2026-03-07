@@ -38,8 +38,19 @@ uv run python -m flowers.train \
 ## Acknowledgments
 
 ### Model and Code
+```
+@misc{muser2026flowers,
+      title={Flowers: A Warp Drive for Neural PDE Solvers}, 
+      author={Till Muser and Alexandra Spitzer and Matti Lassas and Maarten V. de Hoop and Ivan Dokmanić},
+      year={2026},
+      eprint={2603.04430},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2603.04430}, 
+}
+```
 If you use this repo, please cite the appropriate publications:
-- If you use Flower, please cite our paper (currently on hold at arxiv, will be updated ASAP) <!-- TODO: Add here once we have something citeable -->
+- If you use Flower, please cite our paper using the bibtex above.
 - The training framework is built on [The Well](https://polymathic-ai.org/the_well/#citation), as are many of the datasets used here.
 - The scOT model implementation is adapted from [POSEIDON](https://github.com/camlab-ethz/poseidon?tab=readme-ov-file#citation)
 

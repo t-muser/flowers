@@ -17,14 +17,12 @@
   <meta property="og:site_name" content="Flowers">
   <meta property="og:title" content="Flowers: A Warp Drive for Neural PDE Solvers">
   <meta property="og:description" content="Flowers is a neural architecture for learning PDE solution operators built entirely from multihead warps — no Fourier layers, no attention — achieving state-of-the-art performance on 2D and 3D benchmarks.">
-  <!-- TODO: Replace with your actual website URL once deployed -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/flowers">
-  <!-- TODO: Add a 1200x630px social preview image -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/figures/social_preview.png">
+  <meta property="og:url" content="https://t-muser.github.io/flowers">
+  <meta property="og:image" content="https://t-muser.github.io/flowers/static/figures/warpfield_overlay_shear_flow_head0.svg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Flowers: A Warp Drive for Neural PDE Solvers">
-  <meta property="article:published_time" content="2025-01-01T00:00:00.000Z">
+  <meta property="article:published_time" content="2026-02-17T00:00:00.000Z">
   <meta property="article:author" content="Till Muser">
   <meta property="article:section" content="Research">
   <meta property="article:tag" content="neural PDE solver">
@@ -34,8 +32,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Flowers: A Warp Drive for Neural PDE Solvers">
   <meta name="twitter:description" content="Neural PDE solvers built almost purely from learned coordinate warps. Outperforms FNOs, ConvNets, and attention-based models — even at foundation-model scale.">
-  <!-- TODO: Add social preview image -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/figures/social_preview.png">
+
+  <meta name="twitter:image" content="https://t-muser.github.io/flowers/static/figures/warpfield_overlay_shear_flow_head0.svg">
   <meta name="twitter:image:alt" content="Flowers: A Warp Drive for Neural PDE Solvers">
 
   <!-- Academic / Google Scholar -->
@@ -45,10 +43,9 @@
   <meta name="citation_author" content="Lassas, Matti">
   <meta name="citation_author" content="de Hoop, Maarten V.">
   <meta name="citation_author" content="Dokmanić, Ivan">
-  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_publication_date" content="2026">
   <meta name="citation_conference_title" content="arXiv Preprint">
-  <!-- TODO: Add arXiv PDF URL once available -->
-  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/ARXIV_ID.pdf">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2603.04430">
 
   <!-- Additional SEO -->
   <meta name="theme-color" content="#106973">
@@ -113,7 +110,7 @@
       { "@type": "Person", "name": "Maarten V. de Hoop", "affiliation": { "@type": "Organization", "name": "Rice University" } },
       { "@type": "Person", "name": "Ivan Dokmanić",      "affiliation": { "@type": "Organization", "name": "University of Basel" } }
     ],
-    "datePublished": "2025-01-01",
+    "datePublished": "2026-03-06",
     "publisher": { "@type": "Organization", "name": "arXiv Preprint" },
     "keywords": ["neural PDE solver", "operator learning", "learned warps", "scientific machine learning", "fluid dynamics", "wave propagation"],
     "isAccessibleForFree": true
@@ -172,9 +169,8 @@
 
             <div class="column has-text-centered" style="margin-top:1.5rem;">
               <div class="publication-links">
-                <!-- TODO: Replace ARXIV_ID with the actual arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://www.researchgate.net/profile/Ivan-Dokmanic/publication/400979038_Flowers_A_Warp_Drive_for_Neural_PDE_Solvers/links/6998516612f837212a1c7471/Flowers-A-Warp-Drive-for-Neural-PDE-Solvers.pdf" target="_blank"
+                  <a href="https://arxiv.org/pdf/2603.04430" target="_blank"
                      class="external-link button is-normal is-rounded is-dark">
                     <span class="icon"><i class="fas fa-file-pdf"></i></span>
                     <span>Paper</span>
@@ -188,14 +184,13 @@
                     <span>Code</span>
                   </a>
                 </span>
-                <!-- TODO: Replace ARXIV_ID
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/ARXIV_ID" target="_blank"
+                  <a href="https://arxiv.org/abs/2603.04430" target="_blank"
                      class="external-link button is-normal is-rounded is-dark">
                     <span class="icon"><i class="ai ai-arxiv"></i></span>
                     <span>arXiv</span>
                   </a>
-                </span> -->
+                </span>
               </div>
             </div>
 
@@ -515,7 +510,7 @@
       <h2 class="title is-3 has-text-centered"><span class="section-title-wrap"><a href="#scaling" class="section-anchor" aria-label="Link to Scaling">#</a>Scaling</span></h2>
       <p class="section-intro has-text-justified">
         We scale Flower from 17M to 156M parameters on the compressible Euler equations dataset and
-        compare against Poseidon-L, a 628M-parameter fo undation model pretrained on diverse
+        compare against Poseidon-L, a 628M-parameter foundation model pretrained on diverse
         fluid-dynamics. We chose Poseidon-L for comparison because it is the best-performing foundation
         model on this dataset, according to Table 1 of
         <a rel="license" href="https://arxiv.org/abs/2511.15684" target="_blank">Walrus</a>.
@@ -681,24 +676,21 @@
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
         <h2 class="title"><span class="section-title-wrap"><a href="#BibTeX" class="section-anchor" aria-label="Link to BibTeX">#</a>BibTeX</span></h2>
-        <!--
         <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
           <i class="fas fa-copy"></i>
           <span class="copy-text">Copy</span>
-        </button>-->
+        </button>
       </div>
-        Will be added as soon as arXiv releases the pre-print!
-      <!--
-      <pre id="bibtex-code"><code>@inproceedings{muser2026flowers,
-  title     = {Flowers: A Warp Drive for Neural {PDE} Solvers},
-  author    = {Muser, Till and Spitzer, Alexandra and Lassas, Matti
-               and de Hoop, Maarten V. and Dokmanić, Ivan},
-  journal   = {arXiv Preprint},
-  year      = {2025},
-  url       = {https://arxiv.org/abs/ARXIV_ID}
+      <pre id="bibtex-code"><code>@misc{muser2026flowers,
+      title={Flowers: A Warp Drive for Neural PDE Solvers}, 
+      author={Till Muser and Alexandra Spitzer and Matti Lassas and Maarten V. de Hoop and Ivan Dokmanić},
+      year={2026},
+      eprint={2603.04430},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2603.04430}, 
 }</code></pre>
     </div>
-    -->
   </section>
 
   </main>
