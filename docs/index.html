@@ -18,7 +18,7 @@
   <meta property="og:title" content="Flowers: A Warp Drive for Neural PDE Solvers">
   <meta property="og:description" content="Flowers is a neural architecture for learning PDE solution operators built entirely from multihead warps — no Fourier layers, no attention — achieving state-of-the-art performance on 2D and 3D benchmarks.">
   <meta property="og:url" content="https://t-muser.github.io/flowers">
-  <meta property="og:image" content="https://t-muser.github.io/flowers/static/figures/warpfield_overlay_shear_flow_head0.svg">
+  <meta property="og:image" content="https://t-muser.github.io/flowers/static/figures/warpfield_overlay_shear_flow_head0.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Flowers: A Warp Drive for Neural PDE Solvers">
@@ -33,7 +33,7 @@
   <meta name="twitter:title" content="Flowers: A Warp Drive for Neural PDE Solvers">
   <meta name="twitter:description" content="Neural PDE solvers built almost purely from learned coordinate warps. Outperforms FNOs, ConvNets, and attention-based models — even at foundation-model scale.">
 
-  <meta name="twitter:image" content="https://t-muser.github.io/flowers/static/figures/warpfield_overlay_shear_flow_head0.svg">
+  <meta name="twitter:image" content="https://t-muser.github.io/flowers/static/figures/warpfield_overlay_shear_flow_head0.png">
   <meta name="twitter:image:alt" content="Flowers: A Warp Drive for Neural PDE Solvers">
 
   <!-- Academic / Google Scholar -->
@@ -275,7 +275,7 @@
       <h2 class="title is-3 has-text-centered"><span class="section-title-wrap"><a href="#results" class="section-anchor" aria-label="Link to Results">#</a>Results</span></h2>
 
       <figure class="result-figure" style="margin-bottom:2.5rem;">
-        <img src="static/figures/compare_models_viscoelastic_instability_fixed_ch1.svg"
+        <img src="static/figures/compare_models_viscoelastic_instability_fixed_ch1.png"
              alt="One-step prediction comparison on viscoelastic instability: ground truth vs FNO, CNUnet, scOT, Flower">
         <p class="fig-caption">
           <strong>Viscoelastic instability:</strong> one-step prediction of the conformation tensor entry
@@ -451,7 +451,7 @@
       </figure>
 
       <figure class="result-figure" style="margin-bottom:2.5rem;">
-        <img src="static/figures/compare_models_rayleigh_taylor_instability_ch0_3D.svg"
+        <img src="static/figures/compare_models_rayleigh_taylor_instability_ch0_3D.png"
              alt="3D Rayleigh-Taylor instability: one-step prediction comparison">
         <p class="fig-caption">
           <strong>3D Rayleigh–Taylor instability:</strong> 10-step autoregressive prediction of density.
@@ -467,7 +467,7 @@
       exactly as conservation law theory would suggest.
                       
       <figure class="interpret-figure" style="margin-bottom:1rem;">
-        <img src="static/figures/warpfield_overlay_shear_flow_head0.svg"
+        <img src="static/figures/warpfield_overlay_shear_flow_head0.png"
              alt="Learned displacement field (arrows) overlaid on shear flow tracer">
         <p class="fig-caption">
           <strong>Learned displacement fields on shear flow.</strong>
@@ -493,7 +493,7 @@
         prediction gives Flower a natural efficiency advantage.
       </p>
       <figure class="result-figure">
-        <img src="static/figures/throughput_by_resolution.svg"
+        <img src="static/figures/throughput_by_resolution.png"
              alt="Model throughput (samples/sec) vs. resolution for 2D and 3D problems">
         <p class="fig-caption">
           <strong>Training throughput (samples/sec) across resolutions</strong> for 2D and 3D problems,
