@@ -12,12 +12,15 @@
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
 
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://t-muser.github.io/flowers/">
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Flowers">
   <meta property="og:title" content="Flowers: A Warp Drive for Neural PDE Solvers">
   <meta property="og:description" content="Flowers is a neural architecture for learning PDE solution operators built entirely from multihead warps — no Fourier layers, no attention — achieving state-of-the-art performance on 2D and 3D benchmarks.">
-  <meta property="og:url" content="https://t-muser.github.io/flowers">
+  <meta property="og:url" content="https://t-muser.github.io/flowers/">
   <meta property="og:image" content="https://t-muser.github.io/flowers/static/figures/warpfield_overlay_shear_flow_head0.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -43,9 +46,17 @@
   <meta name="citation_author" content="Lassas, Matti">
   <meta name="citation_author" content="de Hoop, Maarten V.">
   <meta name="citation_author" content="Dokmanić, Ivan">
-  <meta name="citation_publication_date" content="2026">
-  <meta name="citation_conference_title" content="arXiv Preprint">
-  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2603.04430">
+  <meta name="citation_publication_date" content="2026/09/29">
+  <meta name="citation_conference_title" content="Proceedings of the 43rd International Conference on Machine Learning">
+  <meta name="citation_inbook_title" content="Proceedings of the 43rd International Conference on Machine Learning">
+  <meta name="citation_publisher" content="PMLR">
+  <meta name="citation_volume" content="306">
+  <meta name="citation_firstpage" content="91390">
+  <meta name="citation_lastpage" content="91418">
+  <meta name="citation_issn" content="2640-3498">
+  <meta name="citation_abstract_html_url" content="https://proceedings.mlr.press/v306/muser26a.html">
+  <meta name="citation_pdf_url" content="https://raw.githubusercontent.com/mlresearch/v306/main/assets/muser26a/muser26a.pdf">
+  <meta name="citation_arxiv_id" content="2603.04430">
 
   <!-- Additional SEO -->
   <meta name="theme-color" content="#106973">
@@ -114,8 +125,18 @@
       { "@type": "Person", "name": "Maarten V. de Hoop", "affiliation": { "@type": "Organization", "name": "Rice University" } },
       { "@type": "Person", "name": "Ivan Dokmanić",      "affiliation": { "@type": "Organization", "name": "University of Basel" } }
     ],
-    "datePublished": "2026-03-06",
-    "publisher": { "@type": "Organization", "name": "arXiv Preprint" },
+    "datePublished": "2026-09-29",
+    "publisher": { "@type": "Organization", "name": "PMLR" },
+    "isPartOf": {
+      "@type": "PublicationVolume",
+      "name": "Proceedings of the 43rd International Conference on Machine Learning",
+      "volumeNumber": "306",
+      "isPartOf": { "@type": "Periodical", "name": "Proceedings of Machine Learning Research", "issn": "2640-3498" }
+    },
+    "pageStart": "91390",
+    "pageEnd": "91418",
+    "url": "https://proceedings.mlr.press/v306/muser26a.html",
+    "sameAs": ["https://arxiv.org/abs/2603.04430"],
     "keywords": ["neural PDE solver", "operator learning", "learned warps", "scientific machine learning", "fluid dynamics", "wave propagation"],
     "isAccessibleForFree": true
   }
@@ -713,14 +734,16 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@misc{muser2026flowers,
-      title={Flowers: A Warp Drive for Neural PDE Solvers}, 
-      author={Till Muser and Alexandra Spitzer and Matti Lassas and Maarten V. de Hoop and Ivan Dokmanić},
-      year={2026},
-      eprint={2603.04430},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2603.04430}, 
+      <pre id="bibtex-code"><code>@InProceedings{pmlr-v306-muser26a,
+  title     = {Flowers: A Warp Drive for Neural {PDE} Solvers},
+  author    = {Muser, Till and Spitzer, Alexandra and Lassas, Matti and De Hoop, Maarten V. and Dokmani\'{c}, Ivan},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
+  pages     = {91390--91418},
+  year      = {2026},
+  volume    = {306},
+  series    = {Proceedings of Machine Learning Research},
+  publisher = {PMLR},
+  url       = {https://proceedings.mlr.press/v306/muser26a.html}
 }</code></pre>
     </div>
   </section>

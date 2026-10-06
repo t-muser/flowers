@@ -39,14 +39,16 @@ uv run python -m flowers.train \
 
 ### Model and Code
 ```
-@misc{muser2026flowers,
-      title={Flowers: A Warp Drive for Neural PDE Solvers}, 
-      author={Till Muser and Alexandra Spitzer and Matti Lassas and Maarten V. de Hoop and Ivan Dokmanić},
-      year={2026},
-      eprint={2603.04430},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2603.04430}, 
+@InProceedings{pmlr-v306-muser26a,
+  title     = {Flowers: A Warp Drive for Neural {PDE} Solvers},
+  author    = {Muser, Till and Spitzer, Alexandra and Lassas, Matti and De Hoop, Maarten V. and Dokmani\'{c}, Ivan},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
+  pages     = {91390--91418},
+  year      = {2026},
+  volume    = {306},
+  series    = {Proceedings of Machine Learning Research},
+  publisher = {PMLR},
+  url       = {https://proceedings.mlr.press/v306/muser26a.html}
 }
 ```
 If you use this repo, please cite the appropriate publications:
